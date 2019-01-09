@@ -1,2 +1,2 @@
-# Nuno-Bootstrap-theme
-Nuno-Bootstrap theme
+# Nuno-Bootstrap-Theme
+Nuno-Bootstrap Theme
