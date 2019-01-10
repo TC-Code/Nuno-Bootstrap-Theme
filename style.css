@@ -71,6 +71,90 @@ body {
   z-index: 1;
 }
 
+.caption h1 {
+  color: #fff;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem #000;
+  padding-bottom: 1rem;
+}
+
+.caption h3 {
+  color: #fff;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-shadow: .1rem .1rem .8rem #000;
+  padding-bottom: 2rem;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .8rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline-block !important;
+}
+
+/*-- Features Section --*/
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.btn-sm {
+  border-width: medium;
+  border-radius: 0;
+  padding: .5rem 1.1rem;
+  font-weight: 400;
+  font-size: .9rem;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.btn-turquoise {
+  border-color: #1ebba3;
+  background-color: #1ebba3;
+  color: #fff;
+}
+
+.btn-turquoise:hover,
+.btn-turquoise:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: #fff;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 1rem 0 3rem;
+}
+
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #1ebba3;
+  margin: 0 auto 2rem;
+}
+
+
+
+
+
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
