@@ -362,25 +362,69 @@ blockquote .svg-inline--fa {
   border-top: .05rem solid #1ebba3;
 }
 
+/* Contact Section */
+footer {
+  background: url('img/footer/footer.png') no-repeat;
+  background-size: cover;
+  color: #fff;
+}
 
+footer .row {
+  background-color: rgba(57, 63, 70, .85);
+  padding: 1rem 2rem 3rem;
+}
 
+footer img {
+  height: 2rem;
+  margin: 1.5rem 0;
+}
 
+footer a {
+  color: #fff;
+}
 
-/*============ BOOTSTRAP BREAK POINTS:
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
 
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
+footer svg.svg-inline--fa:hover {
+  color: #1ebba3 !important;
+}
 
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+footer h3 {
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+}
 
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+/* Contact Form */
+.form-group {
+  margin: 1.3rem;
+}
 
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+.form-control {
+  background-color: #53595f;
+  border-radius: 0;
+  border: .15rem solid #666b71;
+  color: #fff !important;
+  font-size: 1.1rem;
+}
 
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+.form-control:focus {
+  background-color: #53595f;
+  border: .15rem solid #666b71;
+}
 
-=============*/
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #b2b5b8 !important;
+}
+
+input btn {
+  cursor: pointer;
+}
+
+hr.socket {
+  border-top: .2rem solid #666b71;
+  width: 100%;
+}
