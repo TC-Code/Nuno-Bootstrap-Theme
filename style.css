@@ -327,6 +327,24 @@ img.example-image {
   background-color: #1ebba3 !important;
 }
 
+/* Skills Section */
+.skill h3 {
+  color: #1ebba3;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 1rem 0 .5rem;
+}
+
+.skill p {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+
+
+
 
 
 
