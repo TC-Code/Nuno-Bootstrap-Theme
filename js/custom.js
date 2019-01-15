@@ -28,7 +28,7 @@ $(document).ready(function () {
       const hash = this.hash;
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 800, function () {
+      }, 1000, function () {
         window.location.hash = hash;
       });
     }
@@ -87,6 +87,17 @@ $(document).ready(function () {
       768: {
         items: 2
       }
+    }
+  });
+});
+
+// Top Scroll Button
+$(document).ready(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 500) {
+      $('.top-scroll').fadeIn();
+    } else {
+      $('.top-scroll').fadeOut();
     }
   });
 });
